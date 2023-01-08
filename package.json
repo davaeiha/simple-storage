@@ -1,0 +1,16 @@
+{
+  "name": "Ether",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "ethers": "^5.7.2",
+    "fs": "^0.0.1-security",
+    "fs-extra": "^11.1.0",
+    "solc": "^0.8.17"
+  },
+  "scripts": {
+    "compile": "node compile.js",
+    "deploy": "node deploy.js"
+  }
+}
